@@ -2,7 +2,7 @@
 
 **[areinum.com](https://areinum.com)**
 
-![Areinum answering a question from company mail, files and CRM, with its sources](images/areinum-chat.png)
+![Areinum answering a question with two attached files, using company mail, files and CRM, with its sources](images/areinum-chat.png)
 
 Areinum is an AI agent workspace for small companies with 1 to 25 people. It works on the company's own data (mail, drives, chats, projects and CRM) without copying that data into the AI.
 
