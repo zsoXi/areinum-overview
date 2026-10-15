@@ -2,16 +2,10 @@
 
 ## Reporting a vulnerability
 
-Report suspected vulnerabilities in Areinum privately by e-mail to
-[clara@areinum.com](mailto:clara@areinum.com).
-
-Do not open a public issue for a suspected vulnerability, and do not include
-exploit details, secrets or personal data in any public channel.
+If you think you've found a vulnerability in Areinum, please report it privately by e-mail to [clara@areinum.com](mailto:clara@areinum.com). Don't open a public issue for it, and don't post exploit details, secrets or personal data in any public channel.
 
 ## What to expect
 
-We aim to send a first response within 5 business days. Please include what
-you tested, the impact you can demonstrate and a minimal reproduction.
+We aim to reply within 5 business days. It helps us most if you tell us what you tested, the impact you can demonstrate and how to reproduce it with the fewest steps.
 
-Please test only against accounts you own, do not access other people's data,
-and do not degrade the service for others.
+Please test only against accounts you own, don't access other people's data, and don't degrade the service for anyone else.
