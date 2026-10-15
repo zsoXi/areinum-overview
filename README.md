@@ -2,7 +2,7 @@
 
 **[areinum.com](https://areinum.com)**
 
-![Areinum home screen](images/areinum-home.png)
+![Areinum answering a question from company mail, files and CRM, with its sources](images/areinum-chat.png)
 
 Areinum is an AI agent workspace for small companies with 1 to 25 people. It works on the company's own data (mail, drives, chats, projects and CRM) without copying that data into the AI.
 
@@ -24,7 +24,7 @@ Security comes first in how Areinum is built. Each company's data is kept apart,
 - Team management covers owner, admin and member roles, access per source, invite links and display names.
 - The interface is in English, Polish, German and French.
 
-![Connecting company tools](images/areinum-connections.png)
+![Connected company accounts](images/areinum-connections.png)
 
 ### Security
 
@@ -37,6 +37,8 @@ Security comes first in how Areinum is built. Each company's data is kept apart,
 - Connections and stored secrets are encrypted. Backups are encrypted too, and an automated drill tests the restore.
 - An audit trail records who did what, without storing the content of messages or secrets.
 - Every change has to pass more than 4,000 automated tests, lint with warnings as errors, secret scanning and dependency vulnerability audits.
+
+![An irreversible action waiting for the owner's approval and a fresh second factor](images/areinum-approval.png)
 
 Found a security issue? See [SECURITY.md](SECURITY.md).
 
@@ -62,6 +64,8 @@ flowchart LR
 2. Someone asks a question or delegates a task. The agent gets short-lived access that matches that person's current permissions, and when their permissions change, the access changes too.
 3. The agent reads only what it needs, from the original source, and cites where each answer came from.
 4. Anything irreversible (sending, deleting, paying, publishing) needs the owner's explicit approval with a fresh second factor.
+
+![From a question to an approved action](images/areinum-demo.gif)
 
 ## Under the hood
 
